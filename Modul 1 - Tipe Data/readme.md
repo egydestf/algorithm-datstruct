@@ -206,6 +206,9 @@ Program dimulai dengan membuat fungsi untuk menghitung luas dan keliling lingkar
 
 Masuk ke main program, masing-masing variabel dalam fungsi diinisialisasi dengan set variabel `phi` sebesar 3.14 dan bernilai konstan. `const` dipakai untuk menginisialisasi bahwa variabel `phi` bernilai konstan dan tidak bisa diubah. Kemudian variabel `r` untuk menampung input jari-jari juga diinisialisasi. Setelah variabel `r` diinisialisasi, program akan meminta user untuk menginput jari-jari lingkaran yang diinginkan melalui `cin >> r;`. Untuk memproses dan mencetak nilai jari-jari yang sudah diinput user, variabel fungsi harus ditampung terlebih dahulu pada variabel baru dengan nama `luas` dan `keliling`. Pada kedua variabel baru tersebut masing-masing harus diisi dengan variabel fungsi lingkaran yang sudah dibuat pada awal program tadi. Terakhir, barulah program dapat mencetak dan menampilkan hasilnya melalui `cout` dari variabel baru tersebut.
 
+#### Full Code Screenshot: 
+![Screenshot (200)](https://github.com/egydestf/algorithm-datstruct/assets/152776726/881921c1-8085-480a-afcf-76a79abdc8ff)
+
 ### 2. Jelaskan fungsi dari class dan struct secara detail dan berikan contoh programnya
 
 Class adalah cetak biru atau blueprint yang digunakan untuk membuat kerangka dasar untuk objek. Class mendefinisikan atribut (properti) dan method (fungsi) yang akan dijadikan bagian dari objek. Class hanya digunakan untuk membuat kerangka dasar, dan objek yang dihasilkan dari class akan mengadopsi semua karakteristik dan perilaku yang telah ditetapkan dalam class.
@@ -288,6 +291,9 @@ Masuk ke main program dengan menginisialisasi struct untuk digunakan dan membuat
 
 Selanjutnya, dilakukan juga inisialisasi pada class `detail` dan menambahkan variabel `var2` untuk menampung hasil isian class. Kemudian, class `detail` diisi sesuai dengan tempatnya. Setelah semua variabel dalam class `detail` terisi, cetak isi class dengan mencetak variabel tampungan `var2` yang dibuat pada main program dan variabel dalam struct. Contohnya `var2.genre`,`var2` sebagai variabel tampungan yang dibuat pada main program dan `genre` sebagai variabel dalam struct tersebut.
 
+#### Full Code Screenshot: 
+![Screenshot (201)](https://github.com/egydestf/algorithm-datstruct/assets/152776726/9e9c906c-be64-4b1a-8496-28a1b7b12833)
+
 ### 3. Buat dan jelaskan program menggunakan fungsi map dan jelaskan perbedaan dari array dengan map.
 
 ##### Array
@@ -364,6 +370,9 @@ int main() {
 Program di atas adalah program untuk menampilkan map dari list lagu dalam album dookie.
 
 Program dimulai dengan inisialisasi map dengan nama `dookie` dengan tipe key `int` dan value `string`. Kemudian setiap key diisi dengan value berupa data `string`. Pengisian key map bisa dimulai dari indeks 0. Map diisi dengan cara menambahkan value pada key map. Sebagai contoh map `dookie[0]` dengan value `"Burnout"`, artinya pada map `dookie` indeks 0 berisi kata `"Burnout"` berupa `string`. Terakhir, map dicetak dengan mengakses nama map dan masing-masing key nya. Output yang tercetak akan berupa value dari masing-masing key tersebut.
+
+#### Full Code Screenshot:
+![Screenshot (202)](https://github.com/egydestf/algorithm-datstruct/assets/152776726/80152c2e-7d2b-4fdb-8925-7bcd46759d6f)
 
 ## Kesimpulan
 
