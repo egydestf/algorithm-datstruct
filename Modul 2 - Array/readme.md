@@ -251,6 +251,9 @@ Program dimulai dengan mendeklarasikan variabel ukuran dan variabel untuk menamp
 
 Selanjutnya program akan melakukan pemisahan antara nilai bilangan genap dan nilai bilangan ganjil dalam array tersebut. Array dipisahkan menggunakan variabel `genap` dan variabel `ganjil` yang dideklarasikan melalui fungsi `<vector>`. Fungsi `<vector>` sendiri diperoleh dari pemanggilan library `#include <vector>`. Kemudian fungsi `push_back` akan melakukan if statement untuk memisahkan nilai bilangan genap dan nilai bilangan ganjil dalam array. Terakhir program akan menampilkan data array yang telah dipisahkan antara bilangan genap dan bilangan ganjil dalam array tersebut.
 
+#### Full Code Screenshot
+![Screenshot 2024-03-28 220454](https://github.com/egydestf/algorithm-datstruct/assets/152776726/cb2f4a3c-bfa9-4e27-bae9-f46cfc46cbeb)
+
 ### 2. Buatlah program Input array tiga dimensi (seperti pada guided) tetapi jumlah atau ukuran elemennya diinputkan oleh user!
 
 #### Program: 
@@ -327,7 +330,7 @@ Program dimulai dengan mendeklarasikan variabel untuk menampung input dari user.
 Selanjutnya program meminta user untuk memasukkan jumlah elemen pada tiap indeks yang diminta program dan akan dilakukan perulangan for loop. Terakhir array akan menampilkan output sesuai dengan susunan elemen yang diinput user pada baris sebelumnya dan akan terus berulang sampai indeks bilangan terakhir.
 
 #### Full Code Screenshot:
-ss
+![Screenshot 2024-03-28 220609](https://github.com/egydestf/algorithm-datstruct/assets/152776726/c4dd5ed0-40f8-4da6-953c-6bf44a4b7aba)
 
 ### 3. Buatlah program menu untuk mencari nilai Maksimum, Minimum dan Nilai rata – rata dari suatu array dengan input yang dimasukan oleh user!
 
@@ -434,6 +437,9 @@ Program dimulai dengan membuat fungsi untuk mencari nilai Maksimum, Minimum dan 
 Pada main program, variabel `size` dideklarasikan untuk menampung input ukuran array. Lalu program akan meminta input ukuran array dalam variabel `size`. Sebelum input nilai pada tiap indeks array, array dideklarasikan dengan memasukkan variabel `size`. Barulah program akan meminta input user untuk memasukkan nilai pada tiap indeks array sesuai panjang ukuran array. Setelah nilai tiap indeks terinput, program akan mencetak data array yang telah diinput user.
 
 Masuk ke switch case menu, variabel `choice` dideklarasikan sebagai input pilihan menu user. Case `1` berisi fungsi `findMax` yang akan mencari nilai maksimun array, case `2` berisi fungsi `findMin` yang akan mencari nilai minimum array, dan case `3` berisi fungsi `findAverage` yang akan mencari nilai rata-rata array. Tiap case akan terpilih jika input pada variabel `choice` memenuhi case yang ditentukan. Apabila tidak memenuhi case yang ditentukan, case akan menjadi default case. 
+
+#### Full Code Screenshot:
+![Screenshot 2024-03-28 220731](https://github.com/egydestf/algorithm-datstruct/assets/152776726/159a14d7-9be3-43aa-a58c-65dfc5949494)
 
 ## Kesimpulan
 
